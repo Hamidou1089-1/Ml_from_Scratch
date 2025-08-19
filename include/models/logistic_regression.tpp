@@ -1,0 +1,8 @@
+//
+// Created by hamid on 19/08/2025.
+//
+
+#ifndef ML_LOGISTIC_REGRESSION_CUH
+#define ML_LOGISTIC_REGRESSION_CUH
+
+#endif //ML_LOGISTIC_REGRESSION_CUH
