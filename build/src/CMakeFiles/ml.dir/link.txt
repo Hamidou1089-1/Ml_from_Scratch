@@ -1,2 +1,0 @@
-"/usr/bin/gcc-ar-14" qc libml.a CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o CMakeFiles/ml.dir/losses/hinge_loss.cpp.o CMakeFiles/ml.dir/losses/huber_loss.cpp.o CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o CMakeFiles/ml.dir/optimizers/adam.cpp.o CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o CMakeFiles/ml.dir/optimizers/sgd.cpp.o
-"/usr/bin/gcc-ranlib-14" libml.a

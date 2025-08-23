@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -ffast-math -finline-functions -ftemplate-backtrace-limit=0 -fconstexpr-depth=1024 -ftemplate-depth=1024 -march=native -mtune=native -flto=auto -fno-fat-lto-objects CMakeFiles/test_logistic_regression.dir/test_logistic_regression.cpp.o -o test_logistic_regression  ../src/libml.a
