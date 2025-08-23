@@ -130,29 +130,173 @@ ml/fast:
 	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/build
 .PHONY : ml/fast
 
-LinearRegression.o: LinearRegression.cpp.o
-.PHONY : LinearRegression.o
+losses/cross_entropy_loss.o: losses/cross_entropy_loss.cpp.o
+.PHONY : losses/cross_entropy_loss.o
 
 # target to build an object file
-LinearRegression.cpp.o:
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/LinearRegression.cpp.o
-.PHONY : LinearRegression.cpp.o
+losses/cross_entropy_loss.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o
+.PHONY : losses/cross_entropy_loss.cpp.o
 
-LinearRegression.i: LinearRegression.cpp.i
-.PHONY : LinearRegression.i
+losses/cross_entropy_loss.i: losses/cross_entropy_loss.cpp.i
+.PHONY : losses/cross_entropy_loss.i
 
 # target to preprocess a source file
-LinearRegression.cpp.i:
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/LinearRegression.cpp.i
-.PHONY : LinearRegression.cpp.i
+losses/cross_entropy_loss.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.i
+.PHONY : losses/cross_entropy_loss.cpp.i
 
-LinearRegression.s: LinearRegression.cpp.s
-.PHONY : LinearRegression.s
+losses/cross_entropy_loss.s: losses/cross_entropy_loss.cpp.s
+.PHONY : losses/cross_entropy_loss.s
 
 # target to generate assembly for a file
-LinearRegression.cpp.s:
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/LinearRegression.cpp.s
-.PHONY : LinearRegression.cpp.s
+losses/cross_entropy_loss.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.s
+.PHONY : losses/cross_entropy_loss.cpp.s
+
+losses/hinge_loss.o: losses/hinge_loss.cpp.o
+.PHONY : losses/hinge_loss.o
+
+# target to build an object file
+losses/hinge_loss.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o
+.PHONY : losses/hinge_loss.cpp.o
+
+losses/hinge_loss.i: losses/hinge_loss.cpp.i
+.PHONY : losses/hinge_loss.i
+
+# target to preprocess a source file
+losses/hinge_loss.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.i
+.PHONY : losses/hinge_loss.cpp.i
+
+losses/hinge_loss.s: losses/hinge_loss.cpp.s
+.PHONY : losses/hinge_loss.s
+
+# target to generate assembly for a file
+losses/hinge_loss.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.s
+.PHONY : losses/hinge_loss.cpp.s
+
+losses/huber_loss.o: losses/huber_loss.cpp.o
+.PHONY : losses/huber_loss.o
+
+# target to build an object file
+losses/huber_loss.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o
+.PHONY : losses/huber_loss.cpp.o
+
+losses/huber_loss.i: losses/huber_loss.cpp.i
+.PHONY : losses/huber_loss.i
+
+# target to preprocess a source file
+losses/huber_loss.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/huber_loss.cpp.i
+.PHONY : losses/huber_loss.cpp.i
+
+losses/huber_loss.s: losses/huber_loss.cpp.s
+.PHONY : losses/huber_loss.s
+
+# target to generate assembly for a file
+losses/huber_loss.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/huber_loss.cpp.s
+.PHONY : losses/huber_loss.cpp.s
+
+losses/mean_squared_error.o: losses/mean_squared_error.cpp.o
+.PHONY : losses/mean_squared_error.o
+
+# target to build an object file
+losses/mean_squared_error.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o
+.PHONY : losses/mean_squared_error.cpp.o
+
+losses/mean_squared_error.i: losses/mean_squared_error.cpp.i
+.PHONY : losses/mean_squared_error.i
+
+# target to preprocess a source file
+losses/mean_squared_error.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.i
+.PHONY : losses/mean_squared_error.cpp.i
+
+losses/mean_squared_error.s: losses/mean_squared_error.cpp.s
+.PHONY : losses/mean_squared_error.s
+
+# target to generate assembly for a file
+losses/mean_squared_error.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.s
+.PHONY : losses/mean_squared_error.cpp.s
+
+optimizers/adam.o: optimizers/adam.cpp.o
+.PHONY : optimizers/adam.o
+
+# target to build an object file
+optimizers/adam.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/adam.cpp.o
+.PHONY : optimizers/adam.cpp.o
+
+optimizers/adam.i: optimizers/adam.cpp.i
+.PHONY : optimizers/adam.i
+
+# target to preprocess a source file
+optimizers/adam.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/adam.cpp.i
+.PHONY : optimizers/adam.cpp.i
+
+optimizers/adam.s: optimizers/adam.cpp.s
+.PHONY : optimizers/adam.s
+
+# target to generate assembly for a file
+optimizers/adam.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/adam.cpp.s
+.PHONY : optimizers/adam.cpp.s
+
+optimizers/gradient_descent.o: optimizers/gradient_descent.cpp.o
+.PHONY : optimizers/gradient_descent.o
+
+# target to build an object file
+optimizers/gradient_descent.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o
+.PHONY : optimizers/gradient_descent.cpp.o
+
+optimizers/gradient_descent.i: optimizers/gradient_descent.cpp.i
+.PHONY : optimizers/gradient_descent.i
+
+# target to preprocess a source file
+optimizers/gradient_descent.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.i
+.PHONY : optimizers/gradient_descent.cpp.i
+
+optimizers/gradient_descent.s: optimizers/gradient_descent.cpp.s
+.PHONY : optimizers/gradient_descent.s
+
+# target to generate assembly for a file
+optimizers/gradient_descent.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.s
+.PHONY : optimizers/gradient_descent.cpp.s
+
+optimizers/sgd.o: optimizers/sgd.cpp.o
+.PHONY : optimizers/sgd.o
+
+# target to build an object file
+optimizers/sgd.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o
+.PHONY : optimizers/sgd.cpp.o
+
+optimizers/sgd.i: optimizers/sgd.cpp.i
+.PHONY : optimizers/sgd.i
+
+# target to preprocess a source file
+optimizers/sgd.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/sgd.cpp.i
+.PHONY : optimizers/sgd.cpp.i
+
+optimizers/sgd.s: optimizers/sgd.cpp.s
+.PHONY : optimizers/sgd.s
+
+# target to generate assembly for a file
+optimizers/sgd.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/optimizers/sgd.cpp.s
+.PHONY : optimizers/sgd.cpp.s
 
 # Help Target
 help:
@@ -163,9 +307,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ml"
-	@echo "... LinearRegression.o"
-	@echo "... LinearRegression.i"
-	@echo "... LinearRegression.s"
+	@echo "... losses/cross_entropy_loss.o"
+	@echo "... losses/cross_entropy_loss.i"
+	@echo "... losses/cross_entropy_loss.s"
+	@echo "... losses/hinge_loss.o"
+	@echo "... losses/hinge_loss.i"
+	@echo "... losses/hinge_loss.s"
+	@echo "... losses/huber_loss.o"
+	@echo "... losses/huber_loss.i"
+	@echo "... losses/huber_loss.s"
+	@echo "... losses/mean_squared_error.o"
+	@echo "... losses/mean_squared_error.i"
+	@echo "... losses/mean_squared_error.s"
+	@echo "... optimizers/adam.o"
+	@echo "... optimizers/adam.i"
+	@echo "... optimizers/adam.s"
+	@echo "... optimizers/gradient_descent.o"
+	@echo "... optimizers/gradient_descent.i"
+	@echo "... optimizers/gradient_descent.s"
+	@echo "... optimizers/sgd.o"
+	@echo "... optimizers/sgd.i"
+	@echo "... optimizers/sgd.s"
 .PHONY : help
 
 

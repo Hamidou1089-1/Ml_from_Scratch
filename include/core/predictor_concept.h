@@ -2,7 +2,14 @@
 // Created by hamid on 19/08/2025.
 //
 
-#ifndef ML_PREDICTOR_CONCEPT_H
-#define ML_PREDICTOR_CONCEPT_H
+#pragma once
 
-#endif //ML_PREDICTOR_CONCEPT_H
+
+#include "estimator_concept.h"
+
+
+template <typename T>
+concept PredictorConcept = EstimatorConcept<T> && requires(T predictor, const Eigen::MatrixXd& X) {
+    {predictor.predict(X)} -> std::convertible_to<Eigen::VectorXd>;
+
+};

@@ -36,6 +36,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake"
   "/usr/share/cmake-3.30/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.30/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/eigen3/cmake/Eigen3Config.cmake"
+  "/usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake"
+  "/usr/share/eigen3/cmake/Eigen3Targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -56,5 +59,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/ml.dir/DependInfo.cmake"
+  "test/CMakeFiles/test_linear_regression.dir/DependInfo.cmake"
+  "test/CMakeFiles/test_logistic_regression.dir/DependInfo.cmake"
   "doc/CMakeFiles/doc.dir/DependInfo.cmake"
   )

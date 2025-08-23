@@ -4,24 +4,25 @@
 
 #pragma once
 
-#include "Predictor.h"
-#include "Optimizer.h"
-#include "LossFunction.h"
+#include <Eigen/Dense>
 #include <memory>
+#include "loss_concept.h"
+#include "optimizer_concept.h"
 
 
-class LinearRegression : public Predictor {
+
+template <OptimizerConcept OptimizerT, LossConcept LossT>
+class LinearRegression {
 private:
-    std::unique_ptr<Optimizer> _optimizer;
-    std::unique_ptr<LossFunction> _loss;
-    VectorXd _weights;
-    long iterations;
+    OptimizerT optimizer_;
+    LossT loss_;
+    long num_iterations_;
+    Eigen::VectorXd weights_;
 
 public:
-
-LinearRegression(std::unique_ptr<Optimizer> optimizer, std::unique_ptr<LossFunction> loss, long iterations);
-
-void fit(const MatrixXd& X, const VectorXd& y) override;
-VectorXd predict(const MatrixXd& X) const override;
-
+    LinearRegression(OptimizerT opt, LossT los, long num_iterations);
+    void fit(const Eigen::MatrixXd& X, const Eigen::VectorXd& y_true);
+    Eigen::VectorXd predict(const Eigen::MatrixXd& X) const;
 };
+
+#include "linear_regression.tpp"

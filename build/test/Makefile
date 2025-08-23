@@ -116,6 +116,82 @@ depend:
 	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+test/CMakeFiles/test_linear_regression.dir/rule:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_linear_regression.dir/rule
+.PHONY : test/CMakeFiles/test_linear_regression.dir/rule
+
+# Convenience name for target.
+test_linear_regression: test/CMakeFiles/test_linear_regression.dir/rule
+.PHONY : test_linear_regression
+
+# fast build rule for target.
+test_linear_regression/fast:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_linear_regression.dir/build.make test/CMakeFiles/test_linear_regression.dir/build
+.PHONY : test_linear_regression/fast
+
+# Convenience name for target.
+test/CMakeFiles/test_logistic_regression.dir/rule:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_logistic_regression.dir/rule
+.PHONY : test/CMakeFiles/test_logistic_regression.dir/rule
+
+# Convenience name for target.
+test_logistic_regression: test/CMakeFiles/test_logistic_regression.dir/rule
+.PHONY : test_logistic_regression
+
+# fast build rule for target.
+test_logistic_regression/fast:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_logistic_regression.dir/build.make test/CMakeFiles/test_logistic_regression.dir/build
+.PHONY : test_logistic_regression/fast
+
+test_linear_regression.o: test_linear_regression.cpp.o
+.PHONY : test_linear_regression.o
+
+# target to build an object file
+test_linear_regression.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_linear_regression.dir/build.make test/CMakeFiles/test_linear_regression.dir/test_linear_regression.cpp.o
+.PHONY : test_linear_regression.cpp.o
+
+test_linear_regression.i: test_linear_regression.cpp.i
+.PHONY : test_linear_regression.i
+
+# target to preprocess a source file
+test_linear_regression.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_linear_regression.dir/build.make test/CMakeFiles/test_linear_regression.dir/test_linear_regression.cpp.i
+.PHONY : test_linear_regression.cpp.i
+
+test_linear_regression.s: test_linear_regression.cpp.s
+.PHONY : test_linear_regression.s
+
+# target to generate assembly for a file
+test_linear_regression.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_linear_regression.dir/build.make test/CMakeFiles/test_linear_regression.dir/test_linear_regression.cpp.s
+.PHONY : test_linear_regression.cpp.s
+
+test_logistic_regression.o: test_logistic_regression.cpp.o
+.PHONY : test_logistic_regression.o
+
+# target to build an object file
+test_logistic_regression.cpp.o:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_logistic_regression.dir/build.make test/CMakeFiles/test_logistic_regression.dir/test_logistic_regression.cpp.o
+.PHONY : test_logistic_regression.cpp.o
+
+test_logistic_regression.i: test_logistic_regression.cpp.i
+.PHONY : test_logistic_regression.i
+
+# target to preprocess a source file
+test_logistic_regression.cpp.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_logistic_regression.dir/build.make test/CMakeFiles/test_logistic_regression.dir/test_logistic_regression.cpp.i
+.PHONY : test_logistic_regression.cpp.i
+
+test_logistic_regression.s: test_logistic_regression.cpp.s
+.PHONY : test_logistic_regression.s
+
+# target to generate assembly for a file
+test_logistic_regression.cpp.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_logistic_regression.dir/build.make test/CMakeFiles/test_logistic_regression.dir/test_logistic_regression.cpp.s
+.PHONY : test_logistic_regression.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +200,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test_linear_regression"
+	@echo "... test_logistic_regression"
+	@echo "... test_linear_regression.o"
+	@echo "... test_linear_regression.i"
+	@echo "... test_linear_regression.s"
+	@echo "... test_logistic_regression.o"
+	@echo "... test_logistic_regression.i"
+	@echo "... test_logistic_regression.s"
 .PHONY : help
 
 

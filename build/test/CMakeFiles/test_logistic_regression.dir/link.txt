@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_logistic_regression.dir/test_logistic_regression.cpp.o -o test_logistic_regression  ../src/libml.a

@@ -3,6 +3,13 @@ project(ML)
 
 set(CMAKE_CXX_STANDARD 26)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+
+# Trouver Eigen
+find_package(Eigen3 REQUIRED)
+
+
 
 # OPTION pour le profiling
 option(ENABLE_PROFILING "Enable gprof profiling" OFF)

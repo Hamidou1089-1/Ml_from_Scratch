@@ -2,4 +2,4 @@
 // Created by hamid on 18/08/2025.
 //
 
-#include "HingeLoss.h"
+#include "hinge_loss.h"

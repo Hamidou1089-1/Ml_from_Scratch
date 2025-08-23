@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src"
+CXX_INCLUDES = -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src" -isystem /usr/include/eigen3
 
 CXX_FLAGS = -std=gnu++20
 

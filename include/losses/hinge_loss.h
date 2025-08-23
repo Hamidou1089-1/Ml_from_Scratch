@@ -4,14 +4,8 @@
 
 #pragma once
 
-#include "LossFunction.h"
 
 
-class HingeLoss: public LossFunction {
 
-
-public:
-
-};
 
 

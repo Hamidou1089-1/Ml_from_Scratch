@@ -4,16 +4,19 @@
 
 #pragma once
 
-#include "Optimizer.h"
+#include <iostream>
+#include <concepts>
+#include <Eigen/Dense>
 
-class GradientDescent: public Optimizer {
+
+
+class GradientDescent {
 private:
-    double learningRate;
+double learning_rate_;
 
 public:
-    GradientDescent(double learningRate);
-
-    VectorXd step(const VectorXd& current_weights, const VectorXd& gradient) const override;
+    GradientDescent(double learning_rate);
+    Eigen::VectorXd step(const Eigen::VectorXd& weights,const Eigen::VectorXd& gradient);
 };
 
 

@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++20 -o CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/cross_entropy_loss.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/cross_entropy_loss.cpp",
+  "output": "src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o"
+},
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++20 -o CMakeFiles/ml.dir/losses/hinge_loss.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/hinge_loss.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/hinge_loss.cpp",
+  "output": "src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o"
+},
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++20 -o CMakeFiles/ml.dir/losses/huber_loss.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/huber_loss.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/huber_loss.cpp",
+  "output": "src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o"
+},
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++20 -o CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/mean_squared_error.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/mean_squared_error.cpp",
+  "output": "src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o"
+},
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++20 -o CMakeFiles/ml.dir/optimizers/adam.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/adam.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/adam.cpp",
+  "output": "src/CMakeFiles/ml.dir/optimizers/adam.cpp.o"
+},
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++20 -o CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/gradient_descent.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/gradient_descent.cpp",
+  "output": "src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o"
+},
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++20 -o CMakeFiles/ml.dir/optimizers/sgd.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/sgd.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/sgd.cpp",
+  "output": "src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o"
+},
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/test",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/test/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++26 -o CMakeFiles/test_linear_regression.dir/test_linear_regression.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/test/test_linear_regression.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/test/test_linear_regression.cpp",
+  "output": "test/CMakeFiles/test_linear_regression.dir/test_linear_regression.cpp.o"
+},
+{
+  "directory": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/test",
+  "command": "/usr/bin/c++  -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/test/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models\" -I\"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src\" -isystem /usr/include/eigen3 -std=gnu++26 -o CMakeFiles/test_logistic_regression.dir/test_logistic_regression.cpp.o -c \"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/test/test_logistic_regression.cpp\"",
+  "file": "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/test/test_logistic_regression.cpp",
+  "output": "test/CMakeFiles/test_logistic_regression.dir/test_logistic_regression.cpp.o"
+}
+]

@@ -4,15 +4,9 @@
 
 #pragma once
 
-#include "LossFunction.h"
 
 
 
-class HuberLoss: public LossFunction {
 
-
-public:
-
-};
 
 

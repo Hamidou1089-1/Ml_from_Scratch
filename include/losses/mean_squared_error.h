@@ -4,26 +4,26 @@
 
 #pragma once
 
-#include "LossFunction.h"
+#include <Eigen/Dense>
 
-
-class MeanSquaredError: public LossFunction {
+class MeanSquaredError{
 
 
 public:
 
-    double loss(
-        const VectorXd& y_true,
-        const VectorXd& y_pred,
-        const VectorXd& weights
-    ) const override;
+    double compute_loss(
+        const Eigen::VectorXd& y_true,
+        const Eigen::VectorXd& y_pred,
+        const Eigen::VectorXd& current_weight
+    );
 
-    VectorXd gradient(
-        const VectorXd& y_true,
-        const VectorXd& y_pred,
-        const VectorXd& weights,
-        const MatrixXd& X
-    ) const override;
+    Eigen::VectorXd compute_gradient(
+        const Eigen::VectorXd& y_true,
+        const Eigen::VectorXd& y_pred,
+        const Eigen::MatrixXd& X,
+        const Eigen::VectorXd& current_weight
+    );
 };
+
 
 

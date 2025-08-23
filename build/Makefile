@@ -130,6 +130,32 @@ ml/fast:
 .PHONY : ml/fast
 
 #=============================================================================
+# Target rules for targets named test_linear_regression
+
+# Build rule for target.
+test_linear_regression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_linear_regression
+.PHONY : test_linear_regression
+
+# fast build rule for target.
+test_linear_regression/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_linear_regression.dir/build.make test/CMakeFiles/test_linear_regression.dir/build
+.PHONY : test_linear_regression/fast
+
+#=============================================================================
+# Target rules for targets named test_logistic_regression
+
+# Build rule for target.
+test_logistic_regression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_logistic_regression
+.PHONY : test_logistic_regression
+
+# fast build rule for target.
+test_logistic_regression/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_logistic_regression.dir/build.make test/CMakeFiles/test_logistic_regression.dir/build
+.PHONY : test_logistic_regression/fast
+
+#=============================================================================
 # Target rules for targets named doc
 
 # Build rule for target.
@@ -152,6 +178,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... doc"
 	@echo "... ml"
+	@echo "... test_linear_regression"
+	@echo "... test_logistic_regression"
 .PHONY : help
 
 
