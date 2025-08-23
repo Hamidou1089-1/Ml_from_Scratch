@@ -69,103 +69,132 @@ include src/CMakeFiles/ml.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/ml.dir/flags.make
 
+src/CMakeFiles/ml.dir/cmake_pch.hxx.gch: src/CMakeFiles/ml.dir/flags.make
+src/CMakeFiles/ml.dir/cmake_pch.hxx.gch: src/CMakeFiles/ml.dir/cmake_pch.hxx.cxx
+src/CMakeFiles/ml.dir/cmake_pch.hxx.gch: src/CMakeFiles/ml.dir/cmake_pch.hxx
+src/CMakeFiles/ml.dir/cmake_pch.hxx.gch: src/CMakeFiles/ml.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/ml.dir/cmake_pch.hxx.gch"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -MD -MT src/CMakeFiles/ml.dir/cmake_pch.hxx.gch -MF CMakeFiles/ml.dir/cmake_pch.hxx.gch.d -o CMakeFiles/ml.dir/cmake_pch.hxx.gch -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx.cxx"
+
+src/CMakeFiles/ml.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml.dir/cmake_pch.hxx.i"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx.cxx" > CMakeFiles/ml.dir/cmake_pch.hxx.i
+
+src/CMakeFiles/ml.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml.dir/cmake_pch.hxx.s"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx.cxx" -o CMakeFiles/ml.dir/cmake_pch.hxx.s
+
 src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o: src/CMakeFiles/ml.dir/flags.make
 src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o: /home/hamid/Documents/Ensimag/M2\ MSIAM/GPU\ Programming/ML/src/losses/cross_entropy_loss.cpp
+src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx
+src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
 src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o: src/CMakeFiles/ml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o -MF CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o.d -o CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/cross_entropy_loss.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -MD -MT src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o -MF CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o.d -o CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/cross_entropy_loss.cpp"
 
 src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.i"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/cross_entropy_loss.cpp" > CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.i
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/cross_entropy_loss.cpp" > CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.i
 
 src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.s"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/cross_entropy_loss.cpp" -o CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.s
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/cross_entropy_loss.cpp" -o CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.s
 
 src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o: src/CMakeFiles/ml.dir/flags.make
 src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o: /home/hamid/Documents/Ensimag/M2\ MSIAM/GPU\ Programming/ML/src/losses/hinge_loss.cpp
+src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx
+src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
 src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o: src/CMakeFiles/ml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o -MF CMakeFiles/ml.dir/losses/hinge_loss.cpp.o.d -o CMakeFiles/ml.dir/losses/hinge_loss.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/hinge_loss.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -MD -MT src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o -MF CMakeFiles/ml.dir/losses/hinge_loss.cpp.o.d -o CMakeFiles/ml.dir/losses/hinge_loss.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/hinge_loss.cpp"
 
 src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml.dir/losses/hinge_loss.cpp.i"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/hinge_loss.cpp" > CMakeFiles/ml.dir/losses/hinge_loss.cpp.i
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/hinge_loss.cpp" > CMakeFiles/ml.dir/losses/hinge_loss.cpp.i
 
 src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml.dir/losses/hinge_loss.cpp.s"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/hinge_loss.cpp" -o CMakeFiles/ml.dir/losses/hinge_loss.cpp.s
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/hinge_loss.cpp" -o CMakeFiles/ml.dir/losses/hinge_loss.cpp.s
 
 src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o: src/CMakeFiles/ml.dir/flags.make
 src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o: /home/hamid/Documents/Ensimag/M2\ MSIAM/GPU\ Programming/ML/src/losses/huber_loss.cpp
+src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx
+src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
 src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o: src/CMakeFiles/ml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o -MF CMakeFiles/ml.dir/losses/huber_loss.cpp.o.d -o CMakeFiles/ml.dir/losses/huber_loss.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/huber_loss.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -MD -MT src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o -MF CMakeFiles/ml.dir/losses/huber_loss.cpp.o.d -o CMakeFiles/ml.dir/losses/huber_loss.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/huber_loss.cpp"
 
 src/CMakeFiles/ml.dir/losses/huber_loss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml.dir/losses/huber_loss.cpp.i"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/huber_loss.cpp" > CMakeFiles/ml.dir/losses/huber_loss.cpp.i
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/huber_loss.cpp" > CMakeFiles/ml.dir/losses/huber_loss.cpp.i
 
 src/CMakeFiles/ml.dir/losses/huber_loss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml.dir/losses/huber_loss.cpp.s"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/huber_loss.cpp" -o CMakeFiles/ml.dir/losses/huber_loss.cpp.s
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/huber_loss.cpp" -o CMakeFiles/ml.dir/losses/huber_loss.cpp.s
 
 src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o: src/CMakeFiles/ml.dir/flags.make
 src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o: /home/hamid/Documents/Ensimag/M2\ MSIAM/GPU\ Programming/ML/src/losses/mean_squared_error.cpp
+src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx
+src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
 src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o: src/CMakeFiles/ml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o -MF CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o.d -o CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/mean_squared_error.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -MD -MT src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o -MF CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o.d -o CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/mean_squared_error.cpp"
 
 src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml.dir/losses/mean_squared_error.cpp.i"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/mean_squared_error.cpp" > CMakeFiles/ml.dir/losses/mean_squared_error.cpp.i
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/mean_squared_error.cpp" > CMakeFiles/ml.dir/losses/mean_squared_error.cpp.i
 
 src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml.dir/losses/mean_squared_error.cpp.s"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/mean_squared_error.cpp" -o CMakeFiles/ml.dir/losses/mean_squared_error.cpp.s
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/losses/mean_squared_error.cpp" -o CMakeFiles/ml.dir/losses/mean_squared_error.cpp.s
 
 src/CMakeFiles/ml.dir/optimizers/adam.cpp.o: src/CMakeFiles/ml.dir/flags.make
 src/CMakeFiles/ml.dir/optimizers/adam.cpp.o: /home/hamid/Documents/Ensimag/M2\ MSIAM/GPU\ Programming/ML/src/optimizers/adam.cpp
+src/CMakeFiles/ml.dir/optimizers/adam.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx
+src/CMakeFiles/ml.dir/optimizers/adam.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
 src/CMakeFiles/ml.dir/optimizers/adam.cpp.o: src/CMakeFiles/ml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/ml.dir/optimizers/adam.cpp.o"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ml.dir/optimizers/adam.cpp.o -MF CMakeFiles/ml.dir/optimizers/adam.cpp.o.d -o CMakeFiles/ml.dir/optimizers/adam.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/adam.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/ml.dir/optimizers/adam.cpp.o"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -MD -MT src/CMakeFiles/ml.dir/optimizers/adam.cpp.o -MF CMakeFiles/ml.dir/optimizers/adam.cpp.o.d -o CMakeFiles/ml.dir/optimizers/adam.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/adam.cpp"
 
 src/CMakeFiles/ml.dir/optimizers/adam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml.dir/optimizers/adam.cpp.i"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/adam.cpp" > CMakeFiles/ml.dir/optimizers/adam.cpp.i
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/adam.cpp" > CMakeFiles/ml.dir/optimizers/adam.cpp.i
 
 src/CMakeFiles/ml.dir/optimizers/adam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml.dir/optimizers/adam.cpp.s"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/adam.cpp" -o CMakeFiles/ml.dir/optimizers/adam.cpp.s
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/adam.cpp" -o CMakeFiles/ml.dir/optimizers/adam.cpp.s
 
 src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o: src/CMakeFiles/ml.dir/flags.make
 src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o: /home/hamid/Documents/Ensimag/M2\ MSIAM/GPU\ Programming/ML/src/optimizers/gradient_descent.cpp
+src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx
+src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
 src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o: src/CMakeFiles/ml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o -MF CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o.d -o CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/gradient_descent.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -MD -MT src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o -MF CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o.d -o CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/gradient_descent.cpp"
 
 src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.i"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/gradient_descent.cpp" > CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.i
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/gradient_descent.cpp" > CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.i
 
 src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.s"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/gradient_descent.cpp" -o CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.s
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/gradient_descent.cpp" -o CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.s
 
 src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o: src/CMakeFiles/ml.dir/flags.make
 src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o: /home/hamid/Documents/Ensimag/M2\ MSIAM/GPU\ Programming/ML/src/optimizers/sgd.cpp
+src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx
+src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
 src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o: src/CMakeFiles/ml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o -MF CMakeFiles/ml.dir/optimizers/sgd.cpp.o.d -o CMakeFiles/ml.dir/optimizers/sgd.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/sgd.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o"
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -MD -MT src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o -MF CMakeFiles/ml.dir/optimizers/sgd.cpp.o.d -o CMakeFiles/ml.dir/optimizers/sgd.cpp.o -c "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/sgd.cpp"
 
 src/CMakeFiles/ml.dir/optimizers/sgd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml.dir/optimizers/sgd.cpp.i"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/sgd.cpp" > CMakeFiles/ml.dir/optimizers/sgd.cpp.i
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -E "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/sgd.cpp" > CMakeFiles/ml.dir/optimizers/sgd.cpp.i
 
 src/CMakeFiles/ml.dir/optimizers/sgd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml.dir/optimizers/sgd.cpp.s"
-	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/sgd.cpp" -o CMakeFiles/ml.dir/optimizers/sgd.cpp.s
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx" -S "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/optimizers/sgd.cpp" -o CMakeFiles/ml.dir/optimizers/sgd.cpp.s
 
 # Object files for target ml
 ml_OBJECTS = \
@@ -180,6 +209,7 @@ ml_OBJECTS = \
 # External object files for target ml
 ml_EXTERNAL_OBJECTS =
 
+src/libml.a: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
 src/libml.a: src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o
 src/libml.a: src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o
 src/libml.a: src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o
@@ -189,7 +219,7 @@ src/libml.a: src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o
 src/libml.a: src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o
 src/libml.a: src/CMakeFiles/ml.dir/build.make
 src/libml.a: src/CMakeFiles/ml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libml.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libml.a"
 	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/ml.dir/cmake_clean_target.cmake
 	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ml.dir/link.txt --verbose=$(VERBOSE)
 

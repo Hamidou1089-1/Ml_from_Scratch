@@ -22,7 +22,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -221,7 +221,13 @@ DOXYGEN_DOT_EXECUTABLE:FILEPATH=/usr/bin/dot
 //Doxygen documentation generation tool (https://www.doxygen.nl)
 DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
 
-//Enable gprof profiling
+//Enable Link Time Optimization
+ENABLE_LTO:BOOL=ON
+
+//Enable native architecture optimizations
+ENABLE_NATIVE_ARCH:BOOL=ON
+
+//Enable gprof profiling (disables optimizations)
 ENABLE_PROFILING:BOOL=OFF
 
 //The directory containing a CMake configuration file for Eigen3.

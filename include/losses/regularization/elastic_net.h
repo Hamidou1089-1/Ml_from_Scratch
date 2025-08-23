@@ -6,6 +6,7 @@
 
 #include "loss_concept.h"
 #include <Eigen/Dense>
+#include <memory>
 
 template <LossConcept LossT>
 class elastic_net {
@@ -29,3 +30,5 @@ public:
         const Eigen::VectorXd& current_weight
     );
 };
+
+#include "elastic_net.tpp"

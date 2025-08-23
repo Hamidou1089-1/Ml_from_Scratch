@@ -4,7 +4,23 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src" -isystem /usr/include/eigen3
+CXX_INCLUDES = -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses/regularization" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src" -isystem /usr/include/eigen3
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS = -O3 -DNDEBUG -ffast-math -finline-functions -ftemplate-backtrace-limit=0 -fconstexpr-depth=1024 -ftemplate-depth=1024 -march=native -mtune=native -std=c++26 -flto=auto -fno-fat-lto-objects -ftemplate-backtrace-limit=0
+
+# PCH options: src/CMakeFiles/ml.dir/cmake_pch.hxx.gch_OPTIONS = -Winvalid-pch;-x;c++-header;-include;/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx
+
+# PCH options: src/CMakeFiles/ml.dir/losses/cross_entropy_loss.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx
+
+# PCH options: src/CMakeFiles/ml.dir/losses/hinge_loss.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx
+
+# PCH options: src/CMakeFiles/ml.dir/losses/huber_loss.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx
+
+# PCH options: src/CMakeFiles/ml.dir/losses/mean_squared_error.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx
+
+# PCH options: src/CMakeFiles/ml.dir/optimizers/adam.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx
+
+# PCH options: src/CMakeFiles/ml.dir/optimizers/gradient_descent.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx
+
+# PCH options: src/CMakeFiles/ml.dir/optimizers/sgd.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/src/CMakeFiles/ml.dir/cmake_pch.hxx
 

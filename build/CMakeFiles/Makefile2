@@ -152,12 +152,12 @@ test/clean: test/CMakeFiles/test_logistic_regression.dir/clean
 src/CMakeFiles/ml.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=2,3,4,5,6,7,8,9 "Built target ml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=2,3,4,5,6,7,8,9,10 "Built target ml"
 .PHONY : src/CMakeFiles/ml.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/ml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 0
 .PHONY : src/CMakeFiles/ml.dir/rule
@@ -178,12 +178,12 @@ src/CMakeFiles/ml.dir/clean:
 test/CMakeFiles/test_linear_regression.dir/all: src/CMakeFiles/ml.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_linear_regression.dir/build.make test/CMakeFiles/test_linear_regression.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_linear_regression.dir/build.make test/CMakeFiles/test_linear_regression.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=10,11 "Built target test_linear_regression"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=11,12 "Built target test_linear_regression"
 .PHONY : test/CMakeFiles/test_linear_regression.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test_linear_regression.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_linear_regression.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/test_linear_regression.dir/rule
@@ -204,12 +204,12 @@ test/CMakeFiles/test_linear_regression.dir/clean:
 test/CMakeFiles/test_logistic_regression.dir/all: src/CMakeFiles/ml.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_logistic_regression.dir/build.make test/CMakeFiles/test_logistic_regression.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_logistic_regression.dir/build.make test/CMakeFiles/test_logistic_regression.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=12,13 "Built target test_logistic_regression"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" --progress-num=13,14 "Built target test_logistic_regression"
 .PHONY : test/CMakeFiles/test_logistic_regression.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test_logistic_regression.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_logistic_regression.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/test_logistic_regression.dir/rule

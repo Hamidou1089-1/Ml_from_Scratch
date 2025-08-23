@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/test/../include" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src" -isystem /usr/include/eigen3
+CXX_INCLUDES = -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/test/../include" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/concepts" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/core" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/losses/regularization" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/optimizers" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src/../include/models" -I"/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/src" -isystem /usr/include/eigen3
 
-CXX_FLAGS = -std=gnu++26
+CXX_FLAGS = -O3 -DNDEBUG -ffast-math -finline-functions -ftemplate-backtrace-limit=0 -fconstexpr-depth=1024 -ftemplate-depth=1024 -march=native -mtune=native -std=c++26 -flto=auto -fno-fat-lto-objects
 

@@ -130,6 +130,21 @@ ml/fast:
 	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/build
 .PHONY : ml/fast
 
+# target to build an object file
+cmake_pch.hxx.gch:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/cmake_pch.hxx.gch
+.PHONY : cmake_pch.hxx.gch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	cd "/home/hamid/Documents/Ensimag/M2 MSIAM/GPU Programming/ML/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ml.dir/build.make src/CMakeFiles/ml.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 losses/cross_entropy_loss.o: losses/cross_entropy_loss.cpp.o
 .PHONY : losses/cross_entropy_loss.o
 
@@ -307,6 +322,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ml"
+	@echo "... cmake_pch.hxx.gch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
 	@echo "... losses/cross_entropy_loss.o"
 	@echo "... losses/cross_entropy_loss.i"
 	@echo "... losses/cross_entropy_loss.s"

@@ -15,7 +15,9 @@ int main() {
     LogisticRegression<GradientDescent, CrossEntropyLoss> model(
     GradientDescent(0.001),
     CrossEntropyLoss(),
-    100000
+    100000,
+    1e-10,
+    1000
 );
 
     Eigen::MatrixXd X = Eigen::MatrixXd::Random(100, 80);

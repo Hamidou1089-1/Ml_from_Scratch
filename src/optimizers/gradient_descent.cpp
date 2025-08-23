@@ -1,6 +1,4 @@
-//
-// Created by hamid on 18/08/2025.
-//
+
 
 #include "gradient_descent.h"
 
